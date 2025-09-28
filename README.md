@@ -1,5 +1,5 @@
 # Smart India Hackathon Workshop
-# Date:26/09/2025
+# Date:28/09/2025
 ## Register Number:25015718
 ## Name:POORNIMA J
 ## Problem Title
@@ -41,35 +41,35 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-1.For this app I would appreciate it to be Affordable, pen-drive–sized IoT “soil pods” distributed to clusters of farmers.
-2.Farmers insert them in their soil once a week in which they measure moisture, pH, NPK levels and   sync data via Bluetooth to any nearby phone.
-3.Instead of every farmer buying, cooperatives or villages can share one pod, making it ultra cost effective.
-4.Advisory delivered in local language & different dialect voice-first system.
-5.Farmers don’t need to read or type just speak on WhatsApp or phone.
-6.Solves inclusivity for low-literate farmers.
-Innovation and uniqueness of the solution
-1.Not just another app , but soil to cloud network combining IoT  voice-first tech + trust layer.
-2.IoT pods are shared, like community assets.Voice-first and peer validation removes literacy and trust barriers.
-3.Farmers earn more crops than usual because it prevents crops before any catastrophe
-4.For example ,if there is a weather imbalance ,weather would be sensored by those chipand indicates the farmer not to water the crops
+<ol> <li>1.For this app I would appreciate it to be Affordable, pen-drive–sized IoT “soil pods” distributed to clusters of farmers.</li>
+<li>2.Farmers insert them in their soil once a week in which they measure moisture, pH, NPK levels and   sync data via Bluetooth to any nearby phone.</li>
+<li>3.Instead of every farmer buying, cooperatives or villages can share one pod, making it ultra cost effective.</li>
+<li>4.Advisory delivered in local language & different dialect voice-first system.
+<li>5.Farmers don’t need to read or type just speak on WhatsApp or phone.
+<li>6.Solves inclusivity for low-literate farmers.
+<h1>Innovation and uniqueness of the solution</h1>
+<li>1.Not just another app , but soil to cloud network combining IoT  voice-first tech + trust layer.</li>
+<li>2.IoT pods are shared, like community assets.Voice-first and peer validation removes literacy and trust barriers.</li>
+<li>3.Farmers earn more crops than usual because it prevents crops before any catastrophe</li>
+<li>4.For example ,if there is a weather imbalance ,weather would be sensored by those chipand indicates the farmer not to water the crops</li></ol>
 
 ## Technical Approach
-PROGRAMIING LANGUAGES
-1.Java  programming language would be best for multilingual, cross-platform Android-first development.
-2.Text to Speech (Google TTS, Amazon Polly)
-3.Speech to Text (Google Speech API / Vosk offline engine for weak internet)
+<h2>PROGRAMIING LANGUAGES</h2>
+<ol><li>1.Java  programming language would be best for multilingual, cross-platform Android-first development.</li>
+<li>2.Text to Speech (Google TTS, Amazon Polly)
+<li>3.Speech to Text (Google Speech API / Vosk offline engine for weak internet)
 FRAMEWORK
-1.FastAPI / Flask (for advisory microservices).
-2.TensorFlow / PyTorch (for pest image recognition, crop disease models)
-3.HuggingFace Transformers (for multilingual NLP + voice advisory).
-STORAGE
-File Storage
-1.Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
-2.Offline cache in farmer’s phone → SQLite / Hive (for Flutter).
-Database StoragE
-1.PostgreSQL/MySQL → farmer profiles, farm twin metadata, soil reports.
-2.MongoDB → unstructured advisory logs, chat history.
-3.TimescaleDB / InfluxDB → time-series sensor data from IoT pods.
+<li>1.FastAPI / Flask (for advisory microservices).</li>
+<li>2.TensorFlow / PyTorch (for pest image recognition, crop disease models)</li>
+<li>3.HuggingFace Transformers (for multilingual NLP + voice advisory).</li>
+<h3>STORAGE</h3>
+<h4>File Storage</h4>
+<li>1.Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
+<li>2.Offline cache in farmer’s phone → SQLite / Hive (for Flutter).</li>
+<h5>DATA STORAGE</h5>
+<li>1.PostgreSQL/MySQL → farmer profiles, farm twin metadata, soil reports.</li>
+<li>2.MongoDB → unstructured advisory logs, chat history.</li>
+3.TimescaleDB / InfluxDB → time-series sensor data from IoT pods.</li></ol>
 
 ![alt text](<uzhavan app.png>)
 
@@ -98,7 +98,7 @@ STRATEGIES FOR OVERCOMING THESE CHALLENGES
 
 ## Impact and Benefits
 
-POTENTIAL IMPACTS
+<hPOTENTIAL IMPACTS
 
 1.Higher Productivity: Better crop selection, sowing time, and pest control increase yields.
 2.Cost Reduction: Optimized fertilizer/pesticide use reduces unnecessary expenses.
@@ -119,5 +119,4 @@ BENEFICIARIES AND BENEFITS
 
 
 
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+
