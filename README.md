@@ -62,9 +62,9 @@ Agriculture, FoodTech & Rural Development
 <ol><li>FastAPI / Flask (for advisory microservices).</li>
 <li>TensorFlow / PyTorch (for pest image recognition, crop disease models)</li>
 <li>HuggingFace Transformers (for multilingual NLP + voice advisory).</li></ol>
-<h>STORAGE</h4>
-<h5>File Storage</h5>
-<ol><li>Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
+<h4>STORAGE</h4>
+<ol><h5>File Storage</h5>
+<li>Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
 <li>Offline cache in farmer’s phone → SQLite / Hive (for Flutter).</li>
 <h6>Data Storage</h6>
 <li>PostgreSQL/MySQL → farmer profiles, farm twin metadata, soil reports.</li>
