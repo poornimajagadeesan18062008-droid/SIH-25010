@@ -41,81 +41,82 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<ol> <li>1.For this app I would appreciate it to be Affordable, pen-drive–sized IoT “soil pods” distributed to clusters of farmers.</li>
-<li>2.Farmers insert them in their soil once a week in which they measure moisture, pH, NPK levels and   sync data via Bluetooth to any nearby phone.</li>
-<li>3.Instead of every farmer buying, cooperatives or villages can share one pod, making it ultra cost effective.</li>
-<li>4.Advisory delivered in local language & different dialect voice-first system.
-<li>5.Farmers don’t need to read or type just speak on WhatsApp or phone.
-<li>6.Solves inclusivity for low-literate farmers.
-<h1>Innovation and uniqueness of the solution</h1>
-<li>1.Not just another app , but soil to cloud network combining IoT  voice-first tech + trust layer.</li>
-<li>2.IoT pods are shared, like community assets.Voice-first and peer validation removes literacy and trust barriers.</li>
-<li>3.Farmers earn more crops than usual because it prevents crops before any catastrophe</li>
-<li>4.For example ,if there is a weather imbalance ,weather would be sensored by those chipand indicates the farmer not to water the crops</li></ol>
+<ol> <li>For this app I would appreciate it to be Affordable, pen-drive–sized IoT “soil pods” distributed to clusters of farmers.</li>
+<li>Farmers insert them in their soil once a week in which they measure moisture, pH, NPK levels and   sync data via Bluetooth to any nearby phone.</li>
+<li>Instead of every farmer buying, cooperatives or villages can share one pod, making it ultra cost effective.</li>
+<li>Advisory delivered in local language & different dialect voice-first system.</li>
+<li>Farmers don’t need to read or type just speak on WhatsApp or phone.</li>
+<li>Solves inclusivity for low-literate farmers.</li></ol>
+<h1>INNOVATION AND UNIQUENESS OF THE SOLUTION</h1>
+<ol><li>Not just another app , but soil to cloud network combining IoT  voice-first tech + trust layer.</li>
+<li>IoT pods are shared, like community assets.Voice-first and peer validation removes literacy and trust barriers.</li>
+<li>Farmers earn more crops than usual because it prevents crops before any catastrophe</li>
+<li>For example ,if there is a weather imbalance ,weather would be sensored by those chipand indicates the farmer not to water the crops</li></ol>
 
 ## Technical Approach
 <h2>PROGRAMIING LANGUAGES</h2>
-<ol><li>1.Java  programming language would be best for multilingual, cross-platform Android-first development.</li>
-<li>2.Text to Speech (Google TTS, Amazon Polly)
-<li>3.Speech to Text (Google Speech API / Vosk offline engine for weak internet)
-FRAMEWORK
-<li>1.FastAPI / Flask (for advisory microservices).</li>
-<li>2.TensorFlow / PyTorch (for pest image recognition, crop disease models)</li>
-<li>3.HuggingFace Transformers (for multilingual NLP + voice advisory).</li>
-<h3>STORAGE</h3>
-<h4>File Storage</h4>
-<li>1.Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
-<li>2.Offline cache in farmer’s phone → SQLite / Hive (for Flutter).</li>
-<h5>DATA STORAGE</h5>
-<li>1.PostgreSQL/MySQL → farmer profiles, farm twin metadata, soil reports.</li>
-<li>2.MongoDB → unstructured advisory logs, chat history.</li>
-3.TimescaleDB / InfluxDB → time-series sensor data from IoT pods.</li></ol>
+<ol><li>Java  programming language would be best for multilingual, cross-platform Android-first development.</li>
+<li>Text to Speech (Google TTS, Amazon Polly)
+<li>Speech to Text (Google Speech API / Vosk offline engine for weak internet)</ol>
+<h3>FRAMEWORK</h3>
+<ol><li>FastAPI / Flask (for advisory microservices).</li>
+<li>TensorFlow / PyTorch (for pest image recognition, crop disease models)</li>
+<li>HuggingFace Transformers (for multilingual NLP + voice advisory).</li></ol>
+<h>STORAGE</h4>
+<h5>File Storage</h5>
+<ol><li>Farmer voice queries, pest/disease images → stored in AWS S3 / Google Cloud Storage.
+<li>Offline cache in farmer’s phone → SQLite / Hive (for Flutter).</li>
+<h6>Data Storage</h6>
+<li>PostgreSQL/MySQL → farmer profiles, farm twin metadata, soil reports.</li>
+<li>MongoDB → unstructured advisory logs, chat history.</li>
+<li>TimescaleDB / InfluxDB → time-series sensor data from IoT pods.</li></ol>
 
 ![alt text](<uzhavan app.png>)
 
 ## Feasibility and Viability
-POTENTIAL CHALLENGES AND RISKS
-1.Economic Impact: Empowering farmers with data-driven advisory can increase productivity and reduce costs, directly improving livelihoods.
-2.Sustainability: Promotes eco-friendly farming practices, reducing chemical misuse.
-3.Food Security: Better yield supports India’s growing food demand.
-4Equity: Ensures small and marginal farmers—who make up the backbone of Indian agriculture—are not left behind in the digital revolution.
-5.86% of Indian farmers are small or marginal (NABARD Report, 2022).
-6.ICT-based advisories have been shown to increase crop yields by 20–30% in field studies.
+<h7>POTENTIAL CHALLENGES AND RISKS</h7>
+<ol><li>Economic Impact: Empowering farmers with data-driven advisory can increase productivity and reduce costs, directly improving livelihoods.</li>
+<li>Sustainability: Promotes eco-friendly farming practices, reducing chemical misuse.</li>
+<li>Food Security: Better yield supports India’s growing food demand.</li>
+<li>Equity: Ensures small and marginal farmers—who make up the backbone of Indian agriculture—are not left behind in the digital revolution.</li>
+<li>86% of Indian farmers are small or marginal (NABARD Report, 2022).</li>
+<li>ICT-based advisories have been shown to increase crop yields by 20–30% in field studies.</li></ol>
 
-ANALYSIS OF THE FEASIBILITY OF THE IDEA
+<h8>ANALYSIS OF THE FEASIBILITY OF THE IDEA</h8>
+<ol>
+<li>Ease of Use: Big icons, local languages, voice commands → reduces digital literacy barrier.</li>
+<li>Training Needs: Farmers may need short training/demos initially.</li>
+<li>Maintenance: Requires a backend team to keep weather data, mandi prices, and advisory content updated.</li></ol>
 
-1.Ease of Use: Big icons, local languages, voice commands → reduces digital literacy barrier.
-2.Training Needs: Farmers may need short training/demos initially.
-3.Maintenance: Requires a backend team to keep weather data, mandi prices, and advisory content updated.
-
-STRATEGIES FOR OVERCOMING THESE CHALLENGES
-
-1.Government Endorsement: Partner with agriculture departments to certify advisories.
-2.Local Leaders & Panchayats: Use trusted community figures to promote the app.
-3.Farmer Champions: Highlight success stories from early adopters.
-4.Integration with Subsidies: Link app usage with benefits (fertilizer subsidies, crop insurance, or schemes like PM-KISAN).
+<h9>STRATEGIES FOR OVERCOMING THESE CHALLENGES</h9>
+<ol.>
+<li>Government Endorsement: Partner with agriculture departments to certify advisories.</li>
+<li>Local Leaders & Panchayats: Use trusted community figures to promote the app.</li>
+<li>Farmer Champions: Highlight success stories from early adopters.</li>
+<li>Integration with Subsidies: Link app usage with benefits (fertilizer subsidies, crop insurance, or schemes like PM-KISAN).</li></ol>
 
 
 ## Impact and Benefits
 
-<hPOTENTIAL IMPACTS
+<h10>POTENTIAL IMPACTS</h10>
+<ol>
+<li>Higher Productivity: Better crop selection, sowing time, and pest control increase yields.</li>
+<li>Cost Reduction: Optimized fertilizer/pesticide use reduces unnecessary expenses.</li>
+<li>Market Awareness: Farmers can compare mandi prices and choose the best place to sell.</li></ol>
 
-1.Higher Productivity: Better crop selection, sowing time, and pest control increase yields.
-2.Cost Reduction: Optimized fertilizer/pesticide use reduces unnecessary expenses.
-3.Market Awareness: Farmers can compare mandi prices and choose the best place to sell.
-
-BENEFICIARIES AND BENEFITS
-
-1.Higher Productivity: Better crop selection, sowing time, and pest control increase yields.
-2.Cost Reduction: Optimized fertilizer/pesticide use reduces unnecessary expenses.
-3.Market Awareness: Farmers can compare mandi prices and choose the best place to sell.
-4.The app strengthens farmers’ livelihoods, saves resources, and protects the environment, while also bridging the digital divide in rural areas.
+<h11>BENEFICIARIES AND BENEFITS</h11>
+<ol>
+<li>Higher Productivity: Better crop selection, sowing time, and pest control increase yields.</li>
+<li>Cost Reduction: Optimized fertilizer/pesticide use reduces unnecessary expenses.</li>
+<li>Market Awareness: Farmers can compare mandi prices and choose the best place to sell.</li>
+<li>The app strengthens farmers’ livelihoods, saves resources, and protects the environment, while also bridging the digital divide in rural areas.</li></ol>
 
 
 ## Research and Reference
-1.https://www.sciencedirect.com/science/article/pii/S2772375524001060
-2.https://www.researchgate.net/publication/362869390_SMART_AGRICULTURE_BASED_IOT_AND_MOBILE_APPS
-3.https://www.mdpi.com/2077-0472/12/10/1745
+<ol>
+<li>https://www.sciencedirect.com/science/article/pii/S2772375524001060</li>
+<li>https://www.researchgate.net/publication/362869390_SMART_AGRICULTURE_BASED_IOT_AND_MOBILE_APPS</li>
+<li>https://www.mdpi.com/2077-0472/12/10/1745</li></ol>
 
 
 
